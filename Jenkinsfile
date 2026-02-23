@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/yourname/jenkins-docker-practice.git',
+                    url: 'https://github.com/PRIYANKA-ER/jenkins-docker-practice.git',
                     credentialsId: 'github-creds'
             }
         }
